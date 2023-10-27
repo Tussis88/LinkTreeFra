@@ -13,7 +13,7 @@ html {
     margin: 10;
     padding: 0;
     font-family: 'Open sans', sans-serif;
-    background-color: white;
+    background-color: #ebf2f7;
 }
 
 header {
@@ -120,8 +120,24 @@ header>p {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) and (max-width : 1000px) {
-    /* html {
+    html {
 
-        background-color: pink;
-    } */
+        font-size: x-large;
+    }
+
+    header>img {
+        width: 14em;
+        height: 14em;
+    }
+
+    .card {
+        min-width: 400px;
+        max-width: 400px;
+    }
+
+    .rivista {
+        padding-top: 5px;
+        font-size: medium;
+        padding-right: 10px;
+    }
 }
