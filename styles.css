@@ -122,22 +122,27 @@ header>p {
 @media only screen and (min-width : 480px) and (max-width : 1000px) {
     html {
 
-        font-size: x-large;
+        font-size: 220%;
     }
 
     header>img {
-        width: 14em;
-        height: 14em;
+        width: 50%;
+        height: 50%;
     }
 
     .card {
-        min-width: 400px;
-        max-width: 400px;
+        min-width: 450px;
+        max-width: 450px;
     }
 
     .rivista {
         padding-top: 5px;
-        font-size: medium;
-        padding-right: 10px;
+        font-size: 80%;
+        padding-right: 30px;
+    }
+
+    .card_foot {
+        background: red;
+        background: hsla(0, 0%, 100%, 0.615);
     }
 }
