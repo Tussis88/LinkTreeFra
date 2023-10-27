@@ -126,8 +126,8 @@ header>p {
     }
 
     header>img {
-        width: 14em;
-        height: 14em;
+        width: 50%;
+        height: 50%;
     }
 
     .card {
