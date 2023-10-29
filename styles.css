@@ -69,7 +69,7 @@ header>p {
 }
 
 .card {
-    background-color: var(--color3);
+    background-color: var(--color5);
     min-width: 300px;
     max-width: 300px;
     aspect-ratio: 4/3;
@@ -98,6 +98,8 @@ header>p {
     background: red;
     background: hsl(0 0% 100% / 0.5);
     backdrop-filter: blur(16px);
+    width: 100%;
+    height: 40%;
 }
 
 .card_img:hover {
@@ -108,13 +110,19 @@ header>p {
     padding-top: 5px;
     font-size: small;
     color: var(--color4);
+    position: relative;
     text-align: right;
+    vertical-align: bottom;
 }
 
 @media only screen and (min-width: 1224px) {
     .container {
         margin: 0 300px;
-        /* background-color: red; */
+    }
+
+    .rivista {
+        padding-top: 15px;
+        padding-right: 20px;
     }
 }
 
@@ -128,21 +136,25 @@ header>p {
     header>img {
         width: 50%;
         height: 50%;
+        border-width: 8px;
+        box-shadow: rgb(36, 38, 66) 0px 5px 45px 0px;
+        ;
     }
 
     .card {
         min-width: 450px;
         max-width: 450px;
+        aspect-ratio: 4/5;
     }
 
     .rivista {
         padding-top: 5px;
         font-size: 80%;
-        padding-right: 30px;
+        padding-right: 40px;
     }
 
     .card_foot {
         background: red;
-        background: hsla(0, 0%, 100%, 0.615);
+        background: hsla(0, 0%, 100%, 0.656);
     }
 }
